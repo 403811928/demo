@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+* {
+	margin: 0; padding: 0;
+}
+div {
+	opacity: 0.8;
+}
+#container {
+	position: absolute;
+	top: 50%;left: 50%;
+	transform: translate(-50%,-50%) ;
+	width: 200px;height: 200px;
+	background-color: #CDC9C9;
+	opacity: 1;
+}
+#f1 {
+	position: absolute;
+	top: 25px;left: 14.645px;
+	width: 100px;height: 100px;
+	background-color: #228B22;
+	transform: translateZ(-50px) rotateX(45deg) rotateY(-45deg);
+}
+#f2 {
+	position: absolute;
+	top: 75px;left: 85.355px;
+	width: 100px;height: 100px;
+	background-color: #CD853F;
+	transform: translateZ(-50px) rotateX(-45deg) rotateY(45deg);
+	z-index: 2;
+}
+#f3 {
+	position: absolute;
+	top: 14.645px;left: 50px;
+	width: 100px;height: 100px;
+	background-color: #9370DB;
+	transform: translateZ(-50px) rotateX(45deg) rotateY(0deg) rotateZ(45deg);
+	z-index: 2;
+}
+#f4 {
+	position: absolute;
+	top: 85.355px;left: 50px;
+	width: 100px;height: 100px;
+	background-color: #8B7B8B;
+	transform: translateZ(-50px) rotateX(45deg) rotateY(0deg) rotateZ(-135deg);
+}
+#f5 {
+	position: absolute;
+	top: 25px;left: 85.355px;
+	width: 100px;height: 100px;
+	background-color: #9932CC;
+	transform: translateZ(-50px) rotateX(45deg) rotateY(45deg);
+}
+#f6 {
+	position: absolute;
+	top: 75px;left: 14.645px;
+	width: 100px;height: 100px;
+	background-color: #8B2323;
+	transform: translateZ(50px) rotateX(45deg) rotateY(45deg);
+}
+
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="f1">111</div>
+		<div id="f2">222</div>
+		<div id="f3">333</div>
+		<div id="f4">444</div>
+		<div id="f5">555</div>
+		<div id="f6">666</div>
+	</div>
+</body>
+</html>
